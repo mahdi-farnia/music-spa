@@ -1,0 +1,15 @@
+.currentPage {
+  --blue-theme: rgb(9, 96, 254);
+  color: var(--blue-theme); /* blue.theme */
+}
+
+.currentPage::after {
+  content: '';
+  width: 4px;
+  height: 100%;
+  background-color: var(--blue-theme); /* blue.theme */
+  right: 0;
+  top: 0;
+  position: absolute;
+  border-radius: 8px;
+}
