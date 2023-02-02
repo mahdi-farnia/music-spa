@@ -19,7 +19,7 @@ const LeftPanel: React.FC = () => {
           size="lg"
           colorScheme="twitter"
           onChange={colorMode.toggleColorMode}
-          checked={colorMode.colorMode === 'dark'}
+          isChecked={colorMode.colorMode === 'dark'}
         />
         <Text textTransform="capitalize" fontSize={12} fontWeight="semibold" color="white">
           {colorMode.colorMode}
