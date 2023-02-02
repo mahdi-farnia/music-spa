@@ -1,10 +1,10 @@
 import { Box } from '@chakra-ui/react';
-import UpperMenu from 'components/UpperMenu';
+import Navbar from 'components/Navbar';
 import s from './style.module.css';
 
 const MainView: React.FC = () => (
-  <Box as="main" flex="1" className={s.main}>
-    <UpperMenu />
+  <Box as="main" flex="1" className={s.main} bgColor="rgb(17, 19, 22)">
+    <Navbar />
   </Box>
 );
 
