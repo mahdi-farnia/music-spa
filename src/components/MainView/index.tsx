@@ -1,5 +1,5 @@
 import { Box } from '@chakra-ui/react';
-import Navbar from 'components/Navbar';
+import Navbar from 'components/MainView/Navbar';
 import s from './style.module.css';
 
 const MainView: React.FC = () => (
