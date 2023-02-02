@@ -3,7 +3,7 @@ import MenuItems from 'layout/left-panel';
 import MenuItem from './MenuItem';
 
 const Menu: React.FC = () => (
-  <Box pl={12} color="rgb(123, 126, 131)" fontSize={12} fontWeight="bold">
+  <Box pl={12} color="gray.theme" fontSize={12} fontWeight="bold">
     {MenuItems.map((item, i) => (
       <Box key={i} mt={8}>
         <Heading

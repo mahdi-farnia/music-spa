@@ -1,11 +1,22 @@
-import { Box } from '@chakra-ui/react';
+import { HStack, VStack } from '@chakra-ui/react';
 import Navbar from 'components/MainView/Navbar';
-import s from './style.module.css';
+import Explore from './Explore';
+import RightPanel from './RightPanel';
 
 const MainView: React.FC = () => (
-  <Box as="main" flex="1" className={s.main} bgColor="rgb(17, 19, 22)">
+  <VStack
+    as="main"
+    flex="1"
+    alignItems="stretch"
+    marginInlineStart="0 !important"
+    bgColor="blue.dark"
+  >
     <Navbar />
-  </Box>
+    <HStack flex={1} alignItems="stretch" mt="0 !important">
+      <Explore />
+      <RightPanel />
+    </HStack>
+  </VStack>
 );
 
 export default MainView;

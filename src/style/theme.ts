@@ -1,4 +1,5 @@
 import { extendTheme, ThemeOverride } from '@chakra-ui/react';
+import switchTheme from './switch.theme';
 
 export default extendTheme({
   styles: {
@@ -18,9 +19,17 @@ export default extendTheme({
       }
     }
   },
+  components: {
+    Switch: switchTheme
+  },
   colors: {
     blue: {
-      theme: 'rgb(9, 96, 254)'
+      theme: 'rgb(9, 96, 254)',
+      dim: 'rgb(22, 27, 32)',
+      dark: 'rgb(17, 19, 22)'
+    },
+    gray: {
+      theme: 'rgb(123, 126, 131)'
     }
   },
   fonts: {

@@ -6,7 +6,7 @@ const LeftPanel: React.FC = () => {
   const colorMode = useColorMode();
 
   return (
-    <Box as="nav" width={220} bg="rgb(22, 27, 32)">
+    <Box as="nav" width={220} bgColor="blue.dim">
       <HStack justifyContent="center" my={5}>
         <Icon as={LogoIcon} w={8} h={8} />
         <Heading as="h5" fontWeight="semibold" fontSize="md" color="white">
@@ -17,7 +17,6 @@ const LeftPanel: React.FC = () => {
       <Center mt={10} gap={2}>
         <Switch
           size="lg"
-          colorScheme="twitter"
           onChange={colorMode.toggleColorMode}
           isChecked={colorMode.colorMode === 'dark'}
         />

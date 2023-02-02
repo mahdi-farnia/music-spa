@@ -4,7 +4,7 @@ import MainView from 'components/MainView';
 
 function App() {
   return (
-    <HStack w="100%" h="100%" alignItems="stretch">
+    <HStack w="full" h="full" alignItems="stretch">
       <LeftPanel />
       <MainView />
     </HStack>
