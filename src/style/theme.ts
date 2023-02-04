@@ -26,7 +26,8 @@ export default extendTheme({
     blue: {
       theme: 'rgb(9, 96, 254)',
       dim: 'rgb(22, 27, 32)',
-      dark: 'rgb(17, 19, 22)'
+      dark: 'rgb(17, 19, 22)',
+      light: 'rgb(9, 96, 254)'
     },
     gray: {
       theme: 'rgb(123, 126, 131)'
