@@ -28,6 +28,8 @@ Second Top Podcasters Avatar Image By [Vince Fleming On Unsplash](https://unspla
 
 Third Top Podcasters Avatar Image By [Jonathan Borba On Unsplash](https://unsplash.com/photos/5rQG1mib90I?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
 
+Podcast Player Image By [C D-X On Unsplash](https://unsplash.com/photos/PDX_a_82obo?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
+
 ## License
 
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode)
